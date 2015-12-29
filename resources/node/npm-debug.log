@@ -1,0 +1,504 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 warn package.json openARPA@0.0.1 No repository field.
+5 warn package.json openARPA@0.0.1 No README data
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ '/Users/gzileni/GitHub/openARPA/resources/node',
+7 verbose install   [ 'express', 'usergrid', 'argo' ] ]
+8 info preinstall openARPA@0.0.1
+9 verbose readDependencies using package.json deps
+10 verbose cache add [ 'express@3.x.x', null ]
+11 verbose cache add name=undefined spec="express@3.x.x" args=["express@3.x.x",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'express@3.x.x',
+12 verbose parsed url   path: 'express@3.x.x',
+12 verbose parsed url   href: 'express@3.x.x' }
+13 verbose cache add [ 'usergrid@x.x.x', null ]
+14 verbose cache add name=undefined spec="usergrid@x.x.x" args=["usergrid@x.x.x",null]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'usergrid@x.x.x',
+15 verbose parsed url   path: 'usergrid@x.x.x',
+15 verbose parsed url   href: 'usergrid@x.x.x' }
+16 verbose cache add [ 'argo@x.x.x', null ]
+17 verbose cache add name=undefined spec="argo@x.x.x" args=["argo@x.x.x",null]
+18 verbose parsed url { protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: 'argo@x.x.x',
+18 verbose parsed url   path: 'argo@x.x.x',
+18 verbose parsed url   href: 'argo@x.x.x' }
+19 verbose cache add name="express" spec="3.x.x" args=["express","3.x.x"]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: '3.x.x',
+20 verbose parsed url   path: '3.x.x',
+20 verbose parsed url   href: '3.x.x' }
+21 verbose addNamed [ 'express', '3.x.x' ]
+22 verbose addNamed [ null, '>=3.0.0-0 <4.0.0-0' ]
+23 verbose cache add name="usergrid" spec="x.x.x" args=["usergrid","x.x.x"]
+24 verbose parsed url { protocol: null,
+24 verbose parsed url   slashes: null,
+24 verbose parsed url   auth: null,
+24 verbose parsed url   host: null,
+24 verbose parsed url   port: null,
+24 verbose parsed url   hostname: null,
+24 verbose parsed url   hash: null,
+24 verbose parsed url   search: null,
+24 verbose parsed url   query: null,
+24 verbose parsed url   pathname: 'x.x.x',
+24 verbose parsed url   path: 'x.x.x',
+24 verbose parsed url   href: 'x.x.x' }
+25 verbose addNamed [ 'usergrid', 'x.x.x' ]
+26 verbose addNamed [ null, '*' ]
+27 verbose cache add name="argo" spec="x.x.x" args=["argo","x.x.x"]
+28 verbose parsed url { protocol: null,
+28 verbose parsed url   slashes: null,
+28 verbose parsed url   auth: null,
+28 verbose parsed url   host: null,
+28 verbose parsed url   port: null,
+28 verbose parsed url   hostname: null,
+28 verbose parsed url   hash: null,
+28 verbose parsed url   search: null,
+28 verbose parsed url   query: null,
+28 verbose parsed url   pathname: 'x.x.x',
+28 verbose parsed url   path: 'x.x.x',
+28 verbose parsed url   href: 'x.x.x' }
+29 verbose addNamed [ 'argo', 'x.x.x' ]
+30 verbose addNamed [ null, '*' ]
+31 silly lockFile d7f9c44a-express-3-x-x express@3.x.x
+32 verbose lock express@3.x.x /Users/gzileni/.npm/d7f9c44a-express-3-x-x.lock
+33 silly lockFile 6348a55c-usergrid-x-x-x usergrid@x.x.x
+34 verbose lock usergrid@x.x.x /Users/gzileni/.npm/6348a55c-usergrid-x-x-x.lock
+35 silly lockFile c936d7f8-argo-x-x-x argo@x.x.x
+36 verbose lock argo@x.x.x /Users/gzileni/.npm/c936d7f8-argo-x-x-x.lock
+37 silly addNameRange { name: 'express', range: '>=3.0.0-0 <4.0.0-0', hasData: false }
+38 silly addNameRange { name: 'usergrid', range: '*', hasData: false }
+39 silly addNameRange { name: 'argo', range: '*', hasData: false }
+40 verbose request where is /usergrid
+41 verbose request registry https://registry.npmjs.org/
+42 verbose request id 95fd2d4b100d196c
+43 verbose url raw /usergrid
+44 verbose url resolving [ 'https://registry.npmjs.org/', './usergrid' ]
+45 verbose url resolved https://registry.npmjs.org/usergrid
+46 verbose request where is https://registry.npmjs.org/usergrid
+47 info trying registry request attempt 1 at 15:17:39
+48 verbose etag "EL80BU8TR6K7N04QMQBJ52BJ1"
+49 http GET https://registry.npmjs.org/usergrid
+50 verbose request where is /argo
+51 verbose request registry https://registry.npmjs.org/
+52 verbose url raw /argo
+53 verbose url resolving [ 'https://registry.npmjs.org/', './argo' ]
+54 verbose url resolved https://registry.npmjs.org/argo
+55 verbose request where is https://registry.npmjs.org/argo
+56 info trying registry request attempt 1 at 15:17:39
+57 verbose etag "CB0UE9VU5K40MYRPIGGXQZ1AI"
+58 http GET https://registry.npmjs.org/argo
+59 verbose request where is /express
+60 verbose request registry https://registry.npmjs.org/
+61 verbose url raw /express
+62 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+63 verbose url resolved https://registry.npmjs.org/express
+64 verbose request where is https://registry.npmjs.org/express
+65 info trying registry request attempt 1 at 15:17:39
+66 verbose etag "7MXEFLF4JL6AYGCYSTTYJE0FM"
+67 http GET https://registry.npmjs.org/express
+68 http 304 https://registry.npmjs.org/usergrid
+69 silly registry.get cb [ 304,
+69 silly registry.get   { date: 'Fri, 23 Jan 2015 14:17:40 GMT',
+69 silly registry.get     server: 'Apache',
+69 silly registry.get     via: '1.1 varnish',
+69 silly registry.get     'last-modified': 'Fri, 23 Jan 2015 14:17:40 GMT',
+69 silly registry.get     'cache-control': 'max-age=60',
+69 silly registry.get     etag: '"EL80BU8TR6K7N04QMQBJ52BJ1"',
+69 silly registry.get     age: '0',
+69 silly registry.get     'x-served-by': 'cache-fra1227-FRA',
+69 silly registry.get     'x-cache': 'MISS',
+69 silly registry.get     'x-cache-hits': '0',
+69 silly registry.get     'x-timer': 'S1422022660.017807,VS0,VE293',
+69 silly registry.get     vary: 'Accept',
+69 silly registry.get     'content-length': '0',
+69 silly registry.get     'keep-alive': 'timeout=10, max=50',
+69 silly registry.get     connection: 'Keep-Alive' } ]
+70 verbose etag https://registry.npmjs.org/usergrid from cache
+71 silly addNameRange number 2 { name: 'usergrid', range: '*', hasData: true }
+72 silly addNameRange versions [ 'usergrid',
+72 silly addNameRange   [ '0.9.1',
+72 silly addNameRange     '0.9.2',
+72 silly addNameRange     '0.10.0',
+72 silly addNameRange     '0.10.1',
+72 silly addNameRange     '0.10.2',
+72 silly addNameRange     '0.10.3',
+72 silly addNameRange     '0.10.4',
+72 silly addNameRange     '0.10.5',
+72 silly addNameRange     '0.10.6',
+72 silly addNameRange     '0.10.7',
+72 silly addNameRange     '0.10.8',
+72 silly addNameRange     '0.10.9' ] ]
+73 verbose addNamed [ 'usergrid', '0.10.9' ]
+74 verbose addNamed [ '0.10.9', '0.10.9' ]
+75 silly lockFile 9e885228-usergrid-0-10-9 usergrid@0.10.9
+76 verbose lock usergrid@0.10.9 /Users/gzileni/.npm/9e885228-usergrid-0-10-9.lock
+77 silly lockFile 9e885228-usergrid-0-10-9 usergrid@0.10.9
+78 silly lockFile 9e885228-usergrid-0-10-9 usergrid@0.10.9
+79 silly lockFile 6348a55c-usergrid-x-x-x usergrid@x.x.x
+80 silly lockFile 6348a55c-usergrid-x-x-x usergrid@x.x.x
+81 http 200 https://registry.npmjs.org/express
+82 silly registry.get cb [ 200,
+82 silly registry.get   { date: 'Fri, 23 Jan 2015 14:17:40 GMT',
+82 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+82 silly registry.get     etag: '"9WKMWX6KO0R9X9KEB1P989B2O"',
+82 silly registry.get     'content-type': 'application/json',
+82 silly registry.get     'cache-control': 'max-age=60',
+82 silly registry.get     'content-length': '463603',
+82 silly registry.get     'accept-ranges': 'bytes',
+82 silly registry.get     via: '1.1 varnish',
+82 silly registry.get     age: '10',
+82 silly registry.get     'x-served-by': 'cache-fra1222-FRA',
+82 silly registry.get     'x-cache': 'HIT',
+82 silly registry.get     'x-cache-hits': '1',
+82 silly registry.get     'x-timer': 'S1422022659.999373,VS0,VE2',
+82 silly registry.get     vary: 'Accept',
+82 silly registry.get     'keep-alive': 'timeout=10, max=50',
+82 silly registry.get     connection: 'Keep-Alive' } ]
+83 http 304 https://registry.npmjs.org/argo
+84 silly registry.get cb [ 304,
+84 silly registry.get   { date: 'Fri, 23 Jan 2015 14:17:40 GMT',
+84 silly registry.get     server: 'Apache',
+84 silly registry.get     via: '1.1 varnish',
+84 silly registry.get     'last-modified': 'Fri, 23 Jan 2015 14:17:40 GMT',
+84 silly registry.get     'cache-control': 'max-age=60',
+84 silly registry.get     etag: '"CB0UE9VU5K40MYRPIGGXQZ1AI"',
+84 silly registry.get     age: '0',
+84 silly registry.get     'x-served-by': 'cache-fra1244-FRA',
+84 silly registry.get     'x-cache': 'MISS',
+84 silly registry.get     'x-cache-hits': '0',
+84 silly registry.get     'x-timer': 'S1422022660.011579,VS0,VE913',
+84 silly registry.get     vary: 'Accept',
+84 silly registry.get     'content-length': '0',
+84 silly registry.get     'keep-alive': 'timeout=10, max=50',
+84 silly registry.get     connection: 'Keep-Alive' } ]
+85 verbose etag https://registry.npmjs.org/argo from cache
+86 silly addNameRange number 2 { name: 'argo', range: '*', hasData: true }
+87 silly addNameRange versions [ 'argo',
+87 silly addNameRange   [ '0.1.5',
+87 silly addNameRange     '0.1.6',
+87 silly addNameRange     '0.1.7',
+87 silly addNameRange     '0.1.8',
+87 silly addNameRange     '0.2.0',
+87 silly addNameRange     '0.2.1',
+87 silly addNameRange     '0.2.2',
+87 silly addNameRange     '0.3.2',
+87 silly addNameRange     '0.4.0-alpha',
+87 silly addNameRange     '0.4.0-alpha.2',
+87 silly addNameRange     '0.4.0-alpha.3',
+87 silly addNameRange     '0.4.0-alpha.4',
+87 silly addNameRange     '0.4.0-beta',
+87 silly addNameRange     '0.4.1-beta',
+87 silly addNameRange     '0.4.2',
+87 silly addNameRange     '0.4.3',
+87 silly addNameRange     '0.4.4',
+87 silly addNameRange     '0.4.5',
+87 silly addNameRange     '0.4.6',
+87 silly addNameRange     '0.4.7',
+87 silly addNameRange     '0.4.8',
+87 silly addNameRange     '0.4.9',
+87 silly addNameRange     '0.5.0' ] ]
+88 verbose addNamed [ 'argo', '0.5.0' ]
+89 verbose addNamed [ '0.5.0', '0.5.0' ]
+90 silly lockFile 042ddfc0-argo-0-5-0 argo@0.5.0
+91 verbose lock argo@0.5.0 /Users/gzileni/.npm/042ddfc0-argo-0-5-0.lock
+92 silly addNameRange number 2 { name: 'express', range: '>=3.0.0-0 <4.0.0-0', hasData: true }
+93 silly addNameRange versions [ 'express',
+93 silly addNameRange   [ '0.14.0',
+93 silly addNameRange     '0.14.1',
+93 silly addNameRange     '1.0.0',
+93 silly addNameRange     '1.0.1',
+93 silly addNameRange     '1.0.2',
+93 silly addNameRange     '1.0.3',
+93 silly addNameRange     '1.0.4',
+93 silly addNameRange     '1.0.5',
+93 silly addNameRange     '1.0.6',
+93 silly addNameRange     '1.0.7',
+93 silly addNameRange     '1.0.8',
+93 silly addNameRange     '2.0.0',
+93 silly addNameRange     '2.1.0',
+93 silly addNameRange     '2.1.1',
+93 silly addNameRange     '2.2.0',
+93 silly addNameRange     '2.2.1',
+93 silly addNameRange     '2.2.2',
+93 silly addNameRange     '2.3.0',
+93 silly addNameRange     '2.3.1',
+93 silly addNameRange     '2.3.2',
+93 silly addNameRange     '2.3.3',
+93 silly addNameRange     '2.3.4',
+93 silly addNameRange     '2.3.5',
+93 silly addNameRange     '2.3.6',
+93 silly addNameRange     '2.3.7',
+93 silly addNameRange     '2.3.8',
+93 silly addNameRange     '2.3.9',
+93 silly addNameRange     '2.3.10',
+93 silly addNameRange     '2.3.11',
+93 silly addNameRange     '2.3.12',
+93 silly addNameRange     '2.4.0',
+93 silly addNameRange     '2.4.1',
+93 silly addNameRange     '2.4.2',
+93 silly addNameRange     '2.4.3',
+93 silly addNameRange     '2.4.4',
+93 silly addNameRange     '2.4.5',
+93 silly addNameRange     '2.4.6',
+93 silly addNameRange     '2.4.7',
+93 silly addNameRange     '2.5.0',
+93 silly addNameRange     '2.5.1',
+93 silly addNameRange     '2.5.2',
+93 silly addNameRange     '2.5.3',
+93 silly addNameRange     '2.5.4',
+93 silly addNameRange     '2.5.5',
+93 silly addNameRange     '2.5.6',
+93 silly addNameRange     '2.5.7',
+93 silly addNameRange     '2.5.8',
+93 silly addNameRange     '2.5.9',
+93 silly addNameRange     '2.5.10',
+93 silly addNameRange     '2.5.11',
+93 silly addNameRange     '3.0.0',
+93 silly addNameRange     '3.0.1',
+93 silly addNameRange     '3.0.2',
+93 silly addNameRange     '3.0.3',
+93 silly addNameRange     '3.0.4',
+93 silly addNameRange     '3.0.5',
+93 silly addNameRange     '3.0.6',
+93 silly addNameRange     '3.1.0',
+93 silly addNameRange     '3.1.1',
+93 silly addNameRange     '3.1.2',
+93 silly addNameRange     '3.2.0',
+93 silly addNameRange     '3.2.1',
+93 silly addNameRange     '3.2.2',
+93 silly addNameRange     '3.2.3',
+93 silly addNameRange     '3.2.4',
+93 silly addNameRange     '3.2.5',
+93 silly addNameRange     '3.2.6',
+93 silly addNameRange     '3.3.0',
+93 silly addNameRange     '3.3.1',
+93 silly addNameRange     '3.3.2',
+93 silly addNameRange     '3.3.3',
+93 silly addNameRange     '3.3.4',
+93 silly addNameRange     '3.3.5',
+93 silly addNameRange     '3.3.6',
+93 silly addNameRange     '1.0.0-beta',
+93 silly addNameRange     '1.0.0-beta2',
+93 silly addNameRange     '1.0.0-rc',
+93 silly addNameRange     '1.0.0-rc2',
+93 silly addNameRange     '1.0.0-rc3',
+93 silly addNameRange     '1.0.0-rc4',
+93 silly addNameRange     '2.0.0-beta',
+93 silly addNameRange     '2.0.0-beta2',
+93 silly addNameRange     '2.0.0-beta3',
+93 silly addNameRange     '2.0.0-rc',
+93 silly addNameRange     '2.0.0-rc2',
+93 silly addNameRange     '2.0.0-rc3',
+93 silly addNameRange     '3.0.0-alpha1',
+93 silly addNameRange     '3.0.0-alpha2',
+93 silly addNameRange     '3.0.0-alpha3',
+93 silly addNameRange     '3.0.0-alpha4',
+93 silly addNameRange     '3.0.0-alpha5',
+93 silly addNameRange     '3.0.0-beta1',
+93 silly addNameRange     '3.0.0-beta2',
+93 silly addNameRange     '3.0.0-beta3',
+93 silly addNameRange     '3.0.0-beta4',
+93 silly addNameRange     '3.0.0-beta6',
+93 silly addNameRange     '3.0.0-beta7',
+93 silly addNameRange     '3.0.0-rc1',
+93 silly addNameRange     '3.0.0-rc2',
+93 silly addNameRange     '3.0.0-rc3',
+93 silly addNameRange     '3.0.0-rc4',
+93 silly addNameRange     '3.0.0-rc5',
+93 silly addNameRange     '3.3.7',
+93 silly addNameRange     '3.3.8',
+93 silly addNameRange     '3.4.0',
+93 silly addNameRange     '3.4.1',
+93 silly addNameRange     '3.4.2',
+93 silly addNameRange     '3.4.3',
+93 silly addNameRange     '3.4.4',
+93 silly addNameRange     '3.4.5',
+93 silly addNameRange     '3.4.6',
+93 silly addNameRange     '3.4.7',
+93 silly addNameRange     '3.4.8',
+93 silly addNameRange     '4.0.0-rc1',
+93 silly addNameRange     '4.0.0-rc2',
+93 silly addNameRange     '3.5.0',
+93 silly addNameRange     '4.0.0-rc3',
+93 silly addNameRange     '4.0.0-rc4',
+93 silly addNameRange     '3.5.1',
+93 silly addNameRange     '4.0.0',
+93 silly addNameRange     '3.5.2',
+93 silly addNameRange     '4.1.0',
+93 silly addNameRange     '4.1.1',
+93 silly addNameRange     '3.5.3',
+93 silly addNameRange     '4.1.2',
+93 silly addNameRange     '3.6.0',
+93 silly addNameRange     '4.2.0',
+93 silly addNameRange     '3.7.0',
+93 silly addNameRange     '3.8.0',
+93 silly addNameRange     '4.3.0',
+93 silly addNameRange     '4.3.1',
+93 silly addNameRange     '3.8.1',
+93 silly addNameRange     '4.3.2',
+93 silly addNameRange     '3.9.0',
+93 silly addNameRange     '4.4.0',
+93 silly addNameRange     '4.4.1',
+93 silly addNameRange     '3.10.0',
+93 silly addNameRange     '3.10.1',
+93 silly addNameRange     '3.10.2',
+93 silly addNameRange     '3.10.3',
+93 silly addNameRange     '3.10.4',
+93 silly addNameRange     '4.4.2',
+93 silly addNameRange     '3.10.5',
+93 silly addNameRange     '4.4.3',
+93 silly addNameRange     '3.11.0',
+93 silly addNameRange     '4.4.4',
+93 silly addNameRange     '3.12.0',
+93 silly addNameRange     '3.12.1',
+93 silly addNameRange     '4.4.5',
+93 silly addNameRange     '3.13.0',
+93 silly addNameRange     '4.5.0',
+93 silly addNameRange     '4.5.1',
+93 silly addNameRange     '3.14.0',
+93 silly addNameRange     '4.6.0',
+93 silly addNameRange     '4.6.1',
+93 silly addNameRange     '3.15.0',
+93 silly addNameRange     '4.7.0',
+93 silly addNameRange     '3.15.1',
+93 silly addNameRange     '4.7.1',
+93 silly addNameRange     '3.15.2',
+93 silly addNameRange     '4.7.2',
+93 silly addNameRange     '4.7.3',
+93 silly addNameRange     '3.15.3',
+93 silly addNameRange     '4.7.4',
+93 silly addNameRange     '3.16.0',
+93 silly addNameRange     '4.8.0',
+93 silly addNameRange     '3.16.1',
+93 silly addNameRange     '4.8.1',
+93 silly addNameRange     '3.16.2',
+93 silly addNameRange     '4.8.2',
+93 silly addNameRange     '3.16.3',
+93 silly addNameRange     '3.16.4',
+93 silly addNameRange     '4.8.3',
+93 silly addNameRange     '3.16.5',
+93 silly addNameRange     '3.16.6',
+93 silly addNameRange     '4.8.4',
+93 silly addNameRange     '3.16.7',
+93 silly addNameRange     '4.8.5',
+93 silly addNameRange     '3.16.8',
+93 silly addNameRange     '4.8.6',
+93 silly addNameRange     '3.16.9',
+93 silly addNameRange     '4.8.7',
+93 silly addNameRange     '3.16.10',
+93 silly addNameRange     '4.8.8',
+93 silly addNameRange     '3.17.0',
+93 silly addNameRange     '3.17.1',
+93 silly addNameRange     '4.9.0',
+93 silly addNameRange     '3.17.2',
+93 silly addNameRange     '4.9.1',
+93 silly addNameRange     '4.9.2',
+93 silly addNameRange     '3.17.3',
+93 silly addNameRange     '4.9.3',
+93 silly addNameRange     '3.17.4',
+93 silly addNameRange     '4.9.4',
+93 silly addNameRange     '3.17.5',
+93 silly addNameRange     '4.9.5',
+93 silly addNameRange     '3.17.6',
+93 silly addNameRange     '3.17.7',
+93 silly addNameRange     '4.9.6',
+93 silly addNameRange     '4.9.7',
+93 silly addNameRange     '3.17.8',
+93 silly addNameRange     '4.9.8',
+93 silly addNameRange     '3.18.0',
+93 silly addNameRange     '3.18.1',
+93 silly addNameRange     '4.10.0',
+93 silly addNameRange     '3.18.2',
+93 silly addNameRange     '4.10.1',
+93 silly addNameRange     '5.0.0-alpha.1',
+93 silly addNameRange     '3.18.3',
+93 silly addNameRange     '4.10.2',
+93 silly addNameRange     '3.18.4',
+93 silly addNameRange     '4.10.3',
+93 silly addNameRange     '4.10.4',
+93 silly addNameRange     '4.10.5',
+93 silly addNameRange     '3.18.5',
+93 silly addNameRange     '3.18.6',
+93 silly addNameRange     '4.10.6',
+93 silly addNameRange     '4.10.7',
+93 silly addNameRange     '3.19.0',
+93 silly addNameRange     '4.10.8',
+93 silly addNameRange     '4.11.0',
+93 silly addNameRange     '3.19.1',
+93 silly addNameRange     '4.11.1' ] ]
+94 verbose addNamed [ 'express', '3.19.1' ]
+95 verbose addNamed [ '3.19.1', '3.19.1' ]
+96 silly lockFile fb765476-express-3-19-1 express@3.19.1
+97 verbose lock express@3.19.1 /Users/gzileni/.npm/fb765476-express-3-19-1.lock
+98 silly lockFile abd95b70-s-org-express-express-3-19-1-tgz https://registry.npmjs.org/express/-/express-3.19.1.tgz
+99 verbose lock https://registry.npmjs.org/express/-/express-3.19.1.tgz /Users/gzileni/.npm/abd95b70-s-org-express-express-3-19-1-tgz.lock
+100 silly lockFile 042ddfc0-argo-0-5-0 argo@0.5.0
+101 silly lockFile 042ddfc0-argo-0-5-0 argo@0.5.0
+102 verbose addRemoteTarball [ 'https://registry.npmjs.org/express/-/express-3.19.1.tgz',
+102 verbose addRemoteTarball   '2b65f584a4c9856ff656595680f522a106b81693' ]
+103 silly lockFile c936d7f8-argo-x-x-x argo@x.x.x
+104 silly lockFile c936d7f8-argo-x-x-x argo@x.x.x
+105 info retry fetch attempt 1 at 15:17:41
+106 verbose fetch to= /var/folders/dm/ktq0d39j405_gn_g13rygk380000gq/T/npm-6644-BwiQz6Bx/registry.npmjs.org/express/-/express-3.19.1.tgz
+107 http GET https://registry.npmjs.org/express/-/express-3.19.1.tgz
+108 http 200 https://registry.npmjs.org/express/-/express-3.19.1.tgz
+109 silly lockFile abd95b70-s-org-express-express-3-19-1-tgz https://registry.npmjs.org/express/-/express-3.19.1.tgz
+110 silly lockFile abd95b70-s-org-express-express-3-19-1-tgz https://registry.npmjs.org/express/-/express-3.19.1.tgz
+111 silly lockFile fb765476-express-3-19-1 express@3.19.1
+112 silly lockFile fb765476-express-3-19-1 express@3.19.1
+113 silly lockFile d7f9c44a-express-3-x-x express@3.x.x
+114 silly lockFile d7f9c44a-express-3-x-x express@3.x.x
+115 error Error: EACCES, mkdir '/Users/gzileni/.npm/express/3.19.1'
+115 error  { [Error: EACCES, mkdir '/Users/gzileni/.npm/express/3.19.1']
+115 error   errno: 3,
+115 error   code: 'EACCES',
+115 error   path: '/Users/gzileni/.npm/express/3.19.1',
+115 error   parent: 'openARPA' }
+116 error Please try running this command again as root/Administrator.
+117 error System Darwin 14.0.0
+118 error command "node" "/usr/local/bin/npm" "install"
+119 error cwd /Users/gzileni/GitHub/openARPA/resources/node
+120 error node -v v0.10.33
+121 error npm -v 1.4.28
+122 error path /Users/gzileni/.npm/express/3.19.1
+123 error code EACCES
+124 error errno 3
+125 error stack Error: EACCES, mkdir '/Users/gzileni/.npm/express/3.19.1'
+126 verbose exit [ 3, true ]
